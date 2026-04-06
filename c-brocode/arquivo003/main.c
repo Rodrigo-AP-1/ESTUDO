@@ -10,5 +10,9 @@ int main() {
     printf("Que vista linda%c\n", symbol);
     printf("Oi, meu nome eh %s\n", name);
 
+    bool is0nline = true;
+
+    printf("%d", is0nline);
+
     return 0;
 }
