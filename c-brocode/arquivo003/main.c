@@ -11,8 +11,11 @@ int main() {
     printf("Oi, meu nome eh %s\n", name);
 
     bool is0nline = true;
-
-    printf("%d", is0nline);
+    if(is0nline){
+        printf("You are online");
+    } else {
+        printf("You are offline");
+    }
 
     return 0;
 }
