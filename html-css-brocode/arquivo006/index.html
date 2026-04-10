@@ -7,6 +7,13 @@
 </head>
 <body>
     
-    <button style="font-size: large; background-color: grey; color: azure; border-radius: 5px;">click me</button>
+    <button style="font-size: large; background-color: grey; color: azure; border-radius: 5px;" onclick="doSomething()">click me</button>
+
+    <p id="greeting">Hello</p>
+    <script>
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "Goodbye"
+        }
+    </script>
 </body>
 </html>
